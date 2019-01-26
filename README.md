@@ -37,4 +37,11 @@ To push the current branch and set the remote as upstream, use
 ```
 以后再向远程分支test1提交时，执行 git push ，输入用户名和密码就可以
 
+## git rm --cache <file>  删除暂存区的文件
+* 当暂存区的文件和工作区的文件不一致时，需要加参数 -f
+* 暂存区只保留最新add 提交的内容，git commit 后，暂存区提交到历史区，暂存区的内容依然保持不变。
+* 目前能修改的暂存区的内容的指令：
+    1. git rm --cache <file> 操作删除 暂存区的文件
+    2. git add <file> 更新暂存区的文件
+## git checkout <file> 将暂存区的文件覆盖工作区的文件
 
