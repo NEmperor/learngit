@@ -27,7 +27,7 @@ To push the current branch and set the remote as upstream, use
 
     git push --set-upstream origin test1
 ```
-按照提示执行 git push --set-upstream origin test1，输入账号和密码，完成了两件事
+按照提示执行 git push --set-upstream origin test1，输入账号和密码，成功，完成了两件事
 1. 文件成功提交到git仓库的test1分支
 2. .git/config 添加了一个配置选项
 ```
@@ -35,4 +35,4 @@ To push the current branch and set the remote as upstream, use
 	remote = origin
 	merge = refs/heads/test1
 ```
-以后再向远程分支test1提交时，执行 git push 就可以
+以后再向远程分支test1提交时，执行 git push ，输入用户名和密码就可以
