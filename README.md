@@ -36,3 +36,5 @@ To push the current branch and set the remote as upstream, use
 	merge = refs/heads/test1
 ```
 以后再向远程分支test1提交时，执行 git push ，输入用户名和密码就可以
+
+
