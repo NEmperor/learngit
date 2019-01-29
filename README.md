@@ -50,4 +50,4 @@ To push the current branch and set the remote as upstream, use
 * git checkout <file> 把暂存区内容回滚到工作区，一旦回滚，工作区无法恢复
 * git reset --hard 版本号 在历史区回退到某一个版本，强制把工作区和暂存区变成回退后的版本
 
-## 回滚测试1
+## stash
